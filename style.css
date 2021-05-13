@@ -1,0 +1,51 @@
+:root{
+  --lgt-grn: #3ab733;
+  --lgt-blue: #81c9be;
+}
+
+.bunny-picture{
+  height: 45rem;
+  width: 38rem;
+}
+.death-img{
+  height: 39rem;
+  width: 38rem;
+}
+.hidden{
+  display: none;
+  margin-top: 2rem;
+}
+.bg-img{
+  background-image: url(https://t3.ftcdn.net/jpg/02/50/39/72/360_F_250397206_HuBj2V5oEytcqonzpzum4IjEjtAsZq3g.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+
+}
+.bg-lgt-blue{
+  background-color: var(--lgt-blue);
+  border-radius: 18px;}
+.btn-lgt-grn{
+  background-color: var(--lgt-grn);
+  width: 8rem;
+  margin: 0%;
+  font-size: 1.5rem;
+
+  /* outline: #1964156c .25rem solid; */
+  /* margin-right: 1rem; */
+}
+.btn-start{
+  background-color: var(--lgt-grn);
+  width: 20rem;
+  margin: 0%;
+  font-size: 2rem;
+}
+div,
+h1{
+font-family: 'Schoolbell', cursive;
+}
+h2{
+  font-family: 'Creepster', cursive;
+}

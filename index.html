@@ -1,14 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Schoolbell&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Fighting Game</title>
 </head>
-<body>
+
+<body class="bg-img">
+  <header>
+    <div class="container-fluid d-flex justify-content-center">
+      <div class="row ">
+        <div class="col-10 text-light bg-lgt-grn text-center py-3" id="Happiness">
+          <div class="btn btn-start text-light my-5" onclick="start()">START GAME</div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container-fluid bunny justify-content-center d-flex">
+      <div class="row">
+        <div class="col-6">
+          <span id="bunbun">
+            <img class="bunny-picture"
+              src="https://i.pinimg.com/originals/5c/72/d4/5c72d4af44bd5bb96138247460084554.png" alt="content-bunny">
+          </span>
+        </div>
+      </div>
+    </div>
+    <div id="show" class="container commands hidden  text-center justify-content-center">
+      <div class="row my-1 ">
+        <div class="col-8 justify-content-between m-auto bg-lgt-blue">
+          <span class="px-2 my-1">
+            <div class="btn btn-lgt-grn text-light shadow my-1" onclick="pet()">Pet</div>
+            <div class="btn btn-lgt-grn text-light shadow my-1" onclick="feed()">Feed</div>
+            <div class="btn btn-lgt-grn text-light shadow my-1" onclick="water()">Water</div>
+            <div class="btn btn-lgt-grn text-light shadow my-1" onclick="clean()">Clean</div>
+            <div class="btn btn-lgt-grn text-light shadow my-1" onclick="kill()">Kill</div>
+          </span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-10">
+          <div id="">
+            <span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer></footer>
   <script src="app.js"></script>
 </body>
+
 </html>
